@@ -1,7 +1,7 @@
 {
     "name": "Travel Sri Lanka",
     "short_name": "TSL",
-    "start_url" : "firstpage.html",
+    "start_url" : "./firstpage.html",
     "icons": [
         {
             "src": "/android-icon-144x144.png",
