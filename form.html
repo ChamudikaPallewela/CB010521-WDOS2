@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Activity Page Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="57x57" href="./apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./manifest.json">
+        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <!-- Navbar (sit on top) -->
+            <nav class="topnav">
+                <section class="logo">
+                    <a href="Homepage.html"><img src="photos/Logo1.jpg" alt="travel"></a>
+                </section>
+                <ul>
+                            <li><a href="HomePage.html">Home</a></li>
+                            <li><a href="wildlife attractions.html">Wild attractions</a></li>
+                            <li><a href="beaches1.html">Beaches</a></li>
+                            <li><a href="activity.html">Activity page</a></li>
+                            <li><a href="heritagelocations.html">Heritage locations</a></li>
+                            <li><a href="hotelcontractpage.html">Hotel details</a></li>
+                            <li><a href="purches&donations.html"> Shop & donate </a></li>
+                            <li><a class="active" href="aboutus.html">About us</a></li>
+                </ul>
+            </nav>
+        
+            <section class="for">
+            <!-- Header -->
+                <header class="image"  id="Home ">
+                    <section class="log">
+                        <h1 class="middle">
+                            <span class="middle white text"><b>Buy your tickets today </b></span>
+                        </h1>
+                    </section>
+                </header>
+            </section>
+            <section class="bg">
+            <section class="activity-form">
+                <div class="selection">
+                <form id="order-form">
+                    <fieldset>
+                        <legend>Personal details</legend>
+                        <!--full name-->
+                        <p>
+                            <label for="name">Full name:</label>
+                            <input type="text" id="name" name="name" required><br><br>
+                        </p>
+                        <!--Email-->
+                        <p>
+                            <label for="Email">Email:</label>
+                            <input type="text" id="Email" name="Email" required><br><br>
+                        </p>
+                        <!--Telephone-->
+                        <p>
+                            <label for="tel">telephone:</label>
+                            <input type="text" id="tel" name="tel" required><br><br>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Card details</legend>
+                        <!-- card type -->
+                        <label for="cardType">Card type:</label>
+                        <input type="radio" name="cardType" id="cardType" value="Visa" checked>Visa
+                        <input type="radio" name="cardType" id="cardType" value="Master">Mastercard
+                        <!--card number-->
+                        <p>
+                            <label for="cardnum">Card number:</label>
+                            <input type="text" id="cardnum" name="cardnum" maxlength="16" placeholder="0000-0000-0000-0000" required>
+                        </p>
+                        <!-- security code -->
+                        <p>
+                            <label for="security">Security code:</label>
+                            <input type="text" pattern="^[0-9]{3}$" name="security" id="security" placeholder="numbers from back of card" maxlength="3" minlength="3">
+                        </p>
+                        <!-- expiry date -->
+                        <p>
+                            <label for="exp">Expiry date:</label>
+                            <input type="month" name="exp" id="exp" min="2022-06" value="2022-06">
+                        </p>
+                    </fieldset>  
+                    <br>
+                    
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <th>category</th>
+                                <th>Cost in LKR</th>
+                            </tr>
+                            <tr>
+                                <td>Foreign pass per adult</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Local Pass per adult</td>
+                                <td>2500</td>
+                            </tr>
+                            <tr>
+                                <td>child Pass-Kids below age 15</td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>child Pass - Kids below age 6</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Foreigner Pass - child</td>
+                                <td>2500</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                    <label for="ticket">Ticket type:</label>
+                    <select id="ticketType">
+                        <option disabled selected hidden value="">Choose Ticket Type</option>
+                        <option value="local">Local Pass</option>
+                        <option value="foreign">Foreign Pass</option>
+                        <option value="foreignChild">Foreign Pass for Child</option>
+                        <option value="child15">Child Pass for children below 15yrs of age</option>
+                        <option value="child06">Child Pass for children below 06yrs of age</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" name="quantity" id="quantity" required/>
+                    <br>
+                    <br>
+                    <label for="duration">Duration:</label>
+                    <select id="duration">
+                        <option disabled selected hidden value="">Choose Duration</option>
+                        <option value="3Hours">3 hours</option>
+                        <option value="1/2Day">1/2 day</option>
+                        <option value="Aday">1 day</option>
+                        <option value="2days">2 days</option>
+                    </select>
+                    <br>
+                    <br>
+                    <lable for="activities">Activities:</lable>
+                    <select id="activities">
+                    <option disabled selected hidden value="">Choose an Activity</option>
+                    <option value="surfing">Surfing</option>
+                    <option value="enjoying-ruins">Enjoying sri lankas Ancient Ruins</option>
+                    <option value="hiking">Hiking</option>
+                    <option value="safari">Safari</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="extra">Extra:</label>
+
+                    <select id="extra">
+                        <option disabled selected hidden value="">Choose Extra Option</option>
+                        <option value="annual">Annual Pass</option>
+                        <option value="food">Food Pass</option>
+                    </select>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button type="submit">Add to order</button>
+                    <button type="submit" id="place-order">Place order</button>
+                </form>
+            </div>
+    
+            <div class="display-area">
+                <p>Current order(s):</p>
+                <section id="currentOrderField">
+                    <section id="currentOrderType"><br/></section>
+                    <section id="currentOrderQuantity"><br/></section>
+                    <section id="currentOrderDuration"><br/></section>
+                    <section id="currentOrderExtra"><br/></section>
+                    <section id="currentOrderActivities"><br></section>
+                    </section>
+                <p>Cost of current order(s):</p>
+                <div id="currentOrderCost"><br/></div>
+                <p>Overall order(s):</p>
+                <ul id="overallOrderField"></ul>
+                <p>Overall cost of order(s):</p>
+                <div id="overallOrderCost"><br/></div>
+            </div>
+        </section>
+    
+    
+        <hr>
+    </section>
+     <!-- Footer -->
+     <footer class="about">
+                            
+                            
+        <section class="left">
+            <p class="footer-company-name">© 2022 travel sri lanka Pvt. Ltd.</p>
+        </section>
+
+        <section class="center">
+            <section>
+                <i class="phone"></i>
+                <p>+94 703121778 or+94812388090</p>
+            </section>
+        </section>
+        <section class="right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                we hope to offer tourusts best posible virtual experence via our website.</p>
+        </section>
+
+           <script src="scripts/form.js"></script>
+           <script src="scripts/index.js"></script>
+    </body>
+</html>

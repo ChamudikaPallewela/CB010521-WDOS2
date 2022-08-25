@@ -1,0 +1,263 @@
+html{
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    
+}
+body{
+     margin: 0;
+ }
+
+
+body{
+    background-image: url('../photos/img1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ .for  {
+  position: relative;
+  max-width: 95%;
+  min-height: 80%;
+  background: #dee4e459;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+ }
+ .into{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.into p{
+  max-width: 25%;
+  font-size: large;
+  border :10% solid green;
+  padding: 5% ;
+  margin: 5%;
+  
+}
+.into img{
+    padding-top: 5%;
+    max-width: 50%;
+    height:50%;
+}
+ section{
+     display: block;
+ }
+
+ ul {
+    list-style-type: none;
+    margin-left:  201px; ;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgba(135, 192, 209, 0.986);
+    font-size: medium;
+    font-family: cursive;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #2691c7;
+    
+  }
+  .logo img{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-left: 0px;
+
+}
+ iframe{
+    max-width: 600px; ;
+    height: 600px;;
+    position:relative;
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  h1,h2{
+    animation: rubberBand 2s 2;
+   }
+   @keyframes rubberBand{
+    0%{transform: scale3d(1,1,1);}
+    45%{transform: scale3d(1.25,.75,1);}
+   }
+  
+  h2{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+table, th, td {
+    border: 1px solid;
+    max-width: 80%;
+    
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  th {
+    background-color: #74b49d;
+    color: white;
+    
+  }
+  .buttons
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #a2dfe2;
+    color: white;
+  }
+.buttons{
+  margin-left: 50%;
+}
+.log h1{
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Kalam',cursive;
+}
+p{
+  font-size: x-large;
+}
+  
+  footer{
+    position: bottom;
+    bottom: 0;
+  }
+  
+  
+  .about{
+    background-color: #6d6970;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 10%;
+  }
+  
+  .about .left,
+  .about .center,
+  .about .right{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  
+  /* Footer Center */
+  
+  .about .center{
+    max-width: 15%;
+  }
+  
+  
+  .about .center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    max-width: 20%;
+    min-height: 25%;
+    border-radius:12%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  
+  .about .center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .about .center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .about .center p a{
+    color:  #e0ac1c;
+    text-decoration: none;;
+  }
+  
+  
+  
+  
+  .about .right{
+    max-width: 30%;
+  }
+  
+  .about .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .about .resources{
+    max-width: 30%;
+  }
+  
+  .about .resources{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .resources{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }

@@ -1,0 +1,170 @@
+.product-container{
+    max-width:50% ;
+    justify-content: space-around;
+    margin:0 auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+
+}
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content:flex-start ;
+    border-bottom: 4px soild lightgray;
+    margin: 0 auto;
+}
+.product-title{
+    width: 45%;
+}
+
+
+.price{
+    width: 15%;
+    border-bottom: 4px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.total{
+    width: 10%;
+    border-bottom: 4px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalTitles{
+    width: 10%;
+}
+footer{
+    position: bottom;
+    bottom: 0;
+  }
+  
+ 
+
+  .about{
+    background-color: #6d6970;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 10%;
+  }
+  
+  .about .left,
+  .about .center,
+  .about .right{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  
+  /* Footer Center */
+  
+  .about .center{
+    max-width: 15%;
+  }
+  
+  
+  .about .center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    max-width: 20%;
+    min-height: 25%;
+    border-radius:12%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  
+  .about .center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .about .center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .about .center p a{
+    color:  #e0ac1c;
+    text-decoration: none;;
+  }
+  
+  
+  
+  
+  .about .right{
+    max-width: 30%;
+  }
+  
+  .about .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .about .resources{
+    max-width: 30%;
+  }
+  
+  .about .resources{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .resources{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }

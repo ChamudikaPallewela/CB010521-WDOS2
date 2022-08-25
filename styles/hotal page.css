@@ -1,0 +1,226 @@
+html{
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+     margin: 0;
+ }
+ body{
+  background-image: url('../photos/mount\ laviniya.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.links  {
+  position: relative;
+  max-width: 65%;
+  height: 80%;
+  background: #c2c3c38e;
+  margin-left: 15%;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 5%;
+  
+  }
+ section{
+     display: block;
+ }
+
+ ul {
+    list-style-type: none;
+    margin-left:  201px; ;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgba(135, 192, 209, 0.986);
+    font-size: medium;
+    font-family: cursive;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #2691c7;
+    
+  }
+  .logo img{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-left: 0px;
+
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+  }
+  .img h1{
+    text-align: center;
+  }
+  
+  /* selected link */
+  .links a:active {
+    color: blue;
+  }
+  .links a:link, a:visited {
+    background-color: #36d1f4;
+    color: white;
+    padding: 14px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  
+  .links a:hover, a:active {
+    background-color: rgb(155, 211, 215);
+  }
+  .links h2{
+    text-align: center;
+  }
+  h1,.links a{
+    animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
+  }
+  @keyframes popIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    
+    }
+     
+  } 
+  footer{
+    position: bottom;
+    bottom: 0;
+  }
+  
+ 
+  
+  
+  .about{
+    background-color: #6d6970;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 10%;
+  }
+  
+  .about .left,
+  .about .center,
+  .about .right{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  
+  /* Footer Center */
+  
+  .about .center{
+    max-width: 15%;
+  }
+  
+  
+  .about .center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    max-width: 20%;
+    min-height: 25%;
+    border-radius:12%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  
+  .about .center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .about .center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .about .center p a{
+    color:  #e0ac1c;
+    text-decoration: none;;
+  }
+  
+  
+  
+  
+  .about .right{
+    max-width: 30%;
+  }
+  
+  .about .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .about .resources{
+    max-width: 30%;
+  }
+  
+  .about .resources{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .resources{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+ 
+  
+  
+  

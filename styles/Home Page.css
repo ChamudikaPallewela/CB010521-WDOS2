@@ -1,0 +1,383 @@
+html{
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+     margin: 0;
+ }
+ body{
+  background-image: url('../photos/mayneee.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.for  {
+  position: relative;
+  max-width: 95%;
+  min-height: 80%;
+  background: #c2c3c37d;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  
+  }
+ section{
+     display: block;
+ }
+
+ nav ul {
+    list-style-type: none;
+    margin-left:  201px; ;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgba(135, 192, 209, 0.986);
+    font-size: medium;
+    font-family: cursive;
+    
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  nav .active {
+    background-color: #2691c7;
+    
+  }
+  .logo img{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-left: 0px;
+
+}
+.h5 h1{
+  text-align: center;
+  font-size: xx-large;
+}
+@media (min-width: 320px) and (min-width: 641px){
+  h1{
+    font-size: large;
+
+  }
+  p{
+    font-size: medium;
+  }
+}
+
+.container3 h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: xx-large;
+  text-align: right;
+  padding-right: 20%;
+  font-style: inherit;
+}
+.container3 h2{
+  font-family: 'Kalam', cursive;
+  font-size: xx-large;
+  text-align: right;
+  padding-right: 20%;
+}
+.container2{
+
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    }
+    .container2 .box{
+    position: relative;
+    max-width: 600px;
+    height: 300px;
+    background: #569389;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    }
+    
+    .container2 .box .imgbox{
+    position: relative;
+    overflow: hidden;
+    }
+    
+    
+    .container2 .box .imgbox img{
+      max-width: 100%;
+      height: 300px;
+      transition: transform 2s;
+    }
+    
+    .container2 .box:hover .imgbox img{
+      transform: scale(1.2);
+    
+    }
+    .container2 .box .details{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      bottom: 10px;
+      right: 10px;
+      background: rgb(58, 60, 60);
+      transform: scaleY(0);
+      transition: transform .5s;
+    }
+    
+    .container2 .box:hover .details{
+      transform: scaleY(1);
+    
+    
+    }
+    
+    .container2 .box .details .content{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      padding: 15px;
+      color: #f2f2f2;
+    }
+    
+    .container2 .box .details .content .h3{
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      color:#569389;
+    
+    }
+    
+    .container2 .box .details .content .p{
+      margin:10px 0 0;
+      padding: 0;
+    
+    
+    }
+    .logo{
+      
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .logo h1{
+        position: absolute;
+        top: 500px;
+        left: 200px;
+        color: aliceblue;
+        font-size: xx-large; 
+        font-family: 'Kalam', cursive;
+    }
+.into{
+      margin: 70px auto 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+      
+    }
+    .into p{
+      max-width: 55%;
+      font-size: large;
+      border :10% solid green;
+      padding: 5% ;
+    /* margin: 5%;*/
+      
+    }
+    .into img{
+      max-width: 100%;
+      height: 50%;
+  }
+    .climate{
+      margin: 70px auto 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      position: relative;
+      
+    }
+    .climate p{
+      max-width: 55%;
+      font-size: large;
+      border :10% solid green;
+      padding: 5% ;
+    /* margin: 5%;*/
+      
+    }
+    .climate img{
+        max-width: 100%;
+        height: 50%;
+    }
+    /*@media all and (min-width : 320px){
+      .into {
+       
+      }
+      .into p{
+        width: 100%;
+      }
+    }*/
+    .btv{
+      font-size: x-large;
+      
+    }
+video{
+  width: 50%;
+  height: 50%;
+}
+    .btv ol{
+      color: rgb(32, 31, 31);
+    }
+    .list2 ul{
+        color: rgb(20, 19, 19);
+        margin: 0;
+        font-size: x-large;
+    }
+    h1{
+      animation: animate 1.5s 3;
+      }
+@keyframes animate{
+  0%
+  {
+    transform: translateY(0px);
+  }
+  10%
+  {
+    transform: translateY(-30px);
+  }
+  15%
+  {
+    transform: translateY(0px);
+  }
+  25%
+  {
+    transform: translateY(-20px);
+  }
+  30%
+  {
+    transform: translateY(0px);
+  }
+}
+    footer{
+      position: bottom;
+      bottom: 0;
+    }
+    
+    
+    .about{
+      background-color: #6d6970;
+      box-sizing: border-box;
+      max-width: 100%;
+      text-align: left;
+      font: bold 16px sans-serif;
+      padding: 50px 50px 60px 50px;
+      margin-top: 10%;
+    }
+    
+    .about .left,
+    .about .center,
+    .about .right{
+      display: inline-block;
+      vertical-align: top;
+    }
+  
+    
+    /* Footer Center */
+    
+    .about .center{
+      max-width: 15%;
+    }
+    
+    
+    .about .center i{
+      background-color:  #33383b;
+      color: #ffffff;
+      font-size: 25px;
+      max-width: 20%;
+      min-height: 25%;
+      border-radius:12%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+    }
+    
+    
+    .about .center p{
+      display: inline-block;
+      color: #ffffff;
+      vertical-align: middle;
+      margin:0;
+    }
+    
+    .about .center p span{
+      display:block;
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+    }
+    
+    .about .center p a{
+      color:  #e0ac1c;
+      text-decoration: none;;
+    }
+    
+    
+    
+    
+    .about .right{
+      max-width: 30%;
+    }
+    
+    .about .footer-company-about{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+    }
+    
+    .about .footer-company-about span{
+      display: block;
+      color:  #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .about .resources{
+      max-width: 30%;
+    }
+    
+    .about .resources{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+    }
+    
+    .about .resources{
+      display: block;
+      color:  #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    
+   
+    
+    
+    

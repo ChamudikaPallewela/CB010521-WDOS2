@@ -1,0 +1,369 @@
+html{
+    box-sizing: border-box;
+    -ms-text-size-adjust: 50%;
+    -webkit-text-size-adjust: 50%;
+
+    
+}
+body{
+     margin: 0;
+ }
+
+
+body{
+    background-image: url('../photos/donations\ bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ .gg{
+  background-color: #ffffff7c;
+ }
+ section{
+     display: block;
+ }
+
+ ul {
+    list-style-type: none;
+    margin-left:  201px; ;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgba(135, 192, 209, 0.986);
+    font-size: medium;
+    font-family: cursive;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #2691c7;
+    
+  }
+  .logo img{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-left: 0px;
+
+}
+
+row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 10%;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; 
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 60%; 
+    flex: 60%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+
+  .container .amount .button {
+    width: 50%;
+    background-color: gray;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  .container .amount .button:hover {
+    background-color: #393939;
+  }
+  
+  .container .amount .button.selected {
+    background-color: #393939;
+  }
+  .switch {
+    position: absolute;
+    left: 10%;
+    margin: 20px auto;
+    height: 26px;
+    width: 58.5%;
+    background: white;
+    border-radius: 3px;
+  }
+  
+  .switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 49%;
+    line-height: 26px;
+    font-size: 11px;
+    color: #5C5C5C;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .switch-label:active {
+    font-weight: bold;
+  }
+  
+  .switch-label-off {
+    padding-left: 2px;
+  }
+  
+  .switch-label-on {
+    padding-right: 2px;
+  }
+  
+  .switch-input {
+    display: none;
+  }
+  .switch-input:checked + .switch-label {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.65);
+    
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+  }
+  .switch-input:checked + .switch-label-on ~ .switch-selection {
+    left: 50%;
+  }
+  
+  .switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 1%;
+    width: 50%;
+    height: 22px;
+    background: #797e79;
+    border-radius: 3px;
+    background-color: #bed5d5;
+    
+    -webkit-transition: left 0.5s ease-out;
+    -moz-transition: left 0.5s ease-out;
+    -o-transition: left 0.5s ease-out;
+    transition: left 0.5s ease-out;
+  }
+  .checkboxes {
+    left: 13px;
+  }
+  
+  .checkboxes label {
+    position: relative;
+    font-size:large;
+    color: gray;
+  }
+  
+  .checkbox {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #addbe1;
+    padding: 9px;
+    border-radius: 3px;
+    
+
+  }
+  
+  
+  .checkbox:checked {
+    background-color: #87aabe;
+    border: 1px solid #68a3df;
+    color: white;
+  }
+  
+ 
+  
+  
+  
+  
+ /* .button {
+    background-color: #4CAF50; /* Green */
+    /*border: none;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+  
+    
+  }*/
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  
+  
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+footer{
+    position: bottom;
+    bottom: 0;
+  }
+
+  
+  .about{
+    background-color: #6d6970;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 10%;
+  }
+  
+  .about .left,
+  .about .center,
+  .about .right{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  
+  /* Footer Center */
+  
+  .about .center{
+    max-width: 15%;
+  }
+  
+  
+  .about .center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    max-width: 20%;
+    height: 25%;
+    border-radius:12%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  
+  .about .center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .about .center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  
+  
+  
+  
+  .about .right{
+    max-width: 30%;
+  }
+  
+  .about .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .about .resources{
+    max-width: 30%;
+  }
+  
+  .about .resources{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about .resources{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
